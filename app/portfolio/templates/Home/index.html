@@ -1,0 +1,57 @@
+{% extends "Base/index.html" %}
+  {% block content %}
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/customHome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/customHomeinfo.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="container">
+         
+          <svg width="380px" height="500px" viewBox="0 0 837 1045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+              <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z" id="Polygon-1" stroke="#007FB2" stroke-width="6" sketch:type="MSShapeGroup"></path>
+              <path d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z" id="Polygon-2" stroke="#EF4A5B" stroke-width="6" sketch:type="MSShapeGroup"></path>
+              <path d="M773,186 L827,217.538705 L827,279.636651 L773,310 L719,279.636651 L719,217.538705 L773,186 Z" id="Polygon-3" stroke="#795D9C" stroke-width="6" sketch:type="MSShapeGroup"></path>
+              <path d="M639,529 L773,607.846761 L773,763.091627 L639,839 L505,763.091627 L505,607.846761 L639,529 Z" id="Polygon-4" stroke="#F2773F" stroke-width="6" sketch:type="MSShapeGroup"></path>
+              <path d="M281,801 L383,861.025276 L383,979.21169 L281,1037 L179,979.21169 L179,861.025276 L281,801 Z" id="Polygon-5" stroke="#36B455" stroke-width="6" sketch:type="MSShapeGroup"></path>
+          </g>
+          </svg>
+<div class="message-box">
+    <div class="profile-card-wrap">
+        <input id="check" type="checkbox" class="check"><label for="check" class="toggle"> + </label>
+        <div class="content" data-text="Hi! I'm a Software Developer">
+          <div class="title">Hi! I'm Kyrie Garcera </div>
+          <p>I am genuinely interested in different forms of systems, hardware, and latest technologies.</p>
+          <br/>
+           <p>I have a knack for deep analysis of any subject matters, Helped my family </p>
+          <p> with my income from I.T. Services</p>
+          <p>(App development, Hardware</p>
+          <p>services, upgrades, etc..) at 18.</p>
+          <br/>
+          <p> 3+ years of being a professional</p>
+          <p>Software Developer,</p>
+          <p>(Desktop app / Web app )</p>
+          <p> from my previous company and up to present, I have attained an ample<p>
+          <p> proficiency in the processes and management of different </p> 
+          <p>offices like the Warehouse, Registrar, Human Resources, and Marketing. </p>
+          <br/>
+          <p>Thank you very much and God bless!
+          </p>
+        </div>
+        <div class="link-info">
+          <div class="social">
+            <a class="link fb" href="https://web.facebook.com/profile.php?id=100014956930796"" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            <a class="link tw" href="https://www.linkedin.com/in/kyrie-elieson-garcera-8873ba158/" target="_blank"><i class="fa fa fa-linkedin"></i></a>
+            <a class="link cp" href="https://www.monster.com.ph/" target="_blank"><i class="fa fa-optin-monster"></i></a>
+            <a class="link pi" href="{% url 'about' %}" target="_blank"><i class="far fa-user"></i></a>
+            <a class="link li" href="{% url 'exp' %}" target="_blank"><i class="far fa-handshake"></i></a>
+            <a class="link yt" href="{% url 'skills' %}" target="_blank"><i class="fas fa-sitemap"></i></a>
+            <a class="link gp" href="{% url 'proj' %}" target="_blank"><i class="fas fa-project-diagram"></i></a>
+          </div>
+          <div class="photo"></div>
+        </div>
+      </div>
+</div>
+</div>
+        </div>
+
+{% endblock %}
